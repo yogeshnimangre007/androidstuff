@@ -1,0 +1,61 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#696969"
+    >
+    <ImageView
+        android:background="@drawable/chi"
+        android:id="@+id/imagev"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+   <TextView
+    android:text="Welcome To Holi Fest at Udacity"
+    android:layout_height="45dp"
+    android:textStyle="bold"
+    android:textSize="24sp"
+    android:textColor="#dcdcdc"
+    android:background="#000"
+    android:layout_width="match_parent"
+
+
+    />
+
+    <TextView
+        android:text="LET'S MAKE ORPHANS REALIZE THAT THEY ARE NOT SINGLE  :  DO COME !!!!"
+        android:textColor="#dcdcdc"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:id="@+id/text_v"
+        android:background="#e5a1a1"
+        android:layout_marginBottom="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:text=" BOOK NOW "
+        android:layout_height="60dp"
+        android:layout_width="175dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="200dp"
+        android:onClick="book"
+        android:background="#f4c4f0"
+        />
+    <Button
+        android:text=" MORE INFO "
+        android:layout_height="60dp"
+        android:layout_width="170dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginRight="45dp"
+        android:onClick="info"
+        android:background="#f4c4f0"
+        />
+
+
+
+</RelativeLayout>

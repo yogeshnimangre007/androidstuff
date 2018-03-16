@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sony.courtcounter.MainActivity"
+    >
+
+    <TextView
+        android:id="@+id/team"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="TeamA"
+        android:textSize="25sp"
+        android:layout_marginLeft="130dp"
+        />
+    <TextView
+
+        android:textSize="25sp"
+        android:layout_marginLeft="130dp"
+        android:paddingTop="50dp"
+        android:id="@+id/team_a_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="      0"/>
+    <Button
+        android:text="+1 point"
+        android:layout_height="wrap_content"
+        android:layout_width="180dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="100dp"
+        android:onClick="add1"/>
+    <Button
+        android:text="+2 point"
+        android:layout_height="wrap_content"
+        android:layout_width="180dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="150dp"
+        android:onClick="add2"/>
+    <Button
+        android:text="reset "
+        android:layout_height="wrap_content"
+        android:layout_width="180dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="200dp"
+        android:onClick="reset"/>
+</RelativeLayout>
+
