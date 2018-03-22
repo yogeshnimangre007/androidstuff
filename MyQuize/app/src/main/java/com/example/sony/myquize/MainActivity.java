@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        TextView numbers=(TextView)findViewById(R.id.textView2);
+        TextView numbers=(TextView)findViewById(R.id.textView3);
         numbers.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
 public void next(View view){
     Intent i= new Intent(this,two.class);
     startActivity(i);
+      
 }
 
 }
